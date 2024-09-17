@@ -1,0 +1,401 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 1209px;
+    background-color: #ffffff;
+    margin: auto;
+    font-family: "Poppins", sans-serif;
+}
+
+li{
+    list-style-type: none;
+}
+
+.header{
+    width: 1193px;
+    height: 59px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 41px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrapper{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    width: 97px;
+    height: 59px;
+}
+
+.menu{
+    width: 609px;
+    height: 26px;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.follow{
+    width: 130px;
+    height: 32px;
+}
+
+.follow ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.follow ul li a img{
+    width: 30px;
+    height: 30px;
+}
+
+.follow ul li:first-child a img{
+    height: 29.26px;
+}
+
+.menu ul li{
+    white-space: nowrap;
+}
+
+.header ul li a {
+    font-family: "DM Sans", sans-serif;
+    text-decoration: none;
+    font-weight: 500;
+    size: 20px;
+    line-height: 26px;
+    align-items: center;
+    color: #666666;
+}
+
+.main{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    box-sizing: content-box;
+    height: 100%;
+}
+
+.about{
+    width: 1204px;
+    height: 350px;
+    position: static;
+    display: flex;
+    justify-content: space-between;
+    margin: 15% auto;
+    
+
+}
+
+.about p{
+    width: 636px;
+    height: 297px;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: -1px;
+    text-align: left;
+}
+
+
+.about span:nth-last-child(2){
+    background: linear-gradient(90deg, #13B0F5 -0.08%, #CA24B4 63.6%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.photo{
+    width: 349px;
+    height: 349px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, #13B0F5 -0.08%, #CA24B4 63.6%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo img{
+    width: 330px;
+    height: 330px;
+    border-radius: 50%;
+}
+
+.techStack{
+    display: flex;
+    flex-direction: column;
+    margin: 5% auto;
+    width: 100%;
+}
+
+.techStack h1{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+    margin: auto;
+    width: 355px;
+    height: 26px;
+    margin-bottom: 4%;
+}
+
+.techStack p{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    margin: auto;
+    width: 719px;
+    height: 26px;
+    margin-bottom: 4%;
+}
+
+.stack{
+    margin: 5% 0;
+}
+
+.stack ul{
+    display: grid;
+    grid-template-columns: 1.5fr 2fr 2fr 2fr 2fr 1.5fr;
+    grid-template-rows: 1fr 2fr;
+
+}
+
+.stack ul li{
+    margin: auto;
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.project h1{
+    width: 201px;
+    height: 26px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 4%;
+}
+
+.futureLearning{
+    width: 343px;
+    height: 26px;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 4%;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.card{
+    width: 375px;
+    height: 567px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 100px 0px #00000033;
+    margin-left: auto;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.card img{
+    width: 375px;
+    height: 260px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.content{
+    padding: 1.5% 0;
+}
+
+.content h3,
+.content p:nth-child(2),
+.content p:nth-child(3),
+.content ul {
+    padding: 2.5% 8%;
+}
+
+.content h3{
+    width: 300px;
+    height: 26px;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+}
+
+.content p:nth-child(2){
+    width: 314px;
+    height: 130px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
+    color: #666666;
+    text-align: left;
+}
+
+.content p:nth-child(3){
+    width: 314px;
+    height: 26px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+
+}
+
+.content p:nth-child(3) span{
+    white-space: nowrap;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 26px;
+    text-align: left;
+}
+
+.content ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.content li{
+    height: 20px;
+    width: 50%;
+}
+
+.content ul li:last-child{
+    margin-left: 38px;
+}
+
+.content ul li a{
+    width: 96px;
+    height: 26px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #000000;
+    white-space: nowrap;
+}
+
+.content ul li:first-child a::before{
+    content: url(img/icons/akar-icons_link-chain.png);
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.content ul li:last-child a::before{
+    content: url(img/icons/akar-icons_github-fill.png);
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.footer{
+    margin-top: 15%;
+}
+
+.footer a, .info ul li a{
+    text-decoration: none;
+    color: #42446E;
+}
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+.info{
+    display: inline-flex;
+    width: 48%;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 0.5%;
+}
+
+.info .follow{
+    margin-left: auto;
+}
+
+.info a:nth-child(2){
+    margin-right: 10px;
+    margin-left: auto;
+}
+
+hr{ 
+    opacity: 0.3;
+    border: 2px solid rgba(102, 102, 102, 1)
+}
+
+.underLine{
+    margin: 3% auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.underLine .menu{
+    width: 47%;
+}
+
+.underLine p{
+    width: 462px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    display: inline-block;
+}
+
+.underLine p span:first-child{
+    background: linear-gradient(90deg, #210cda -0.08%, #8a24ca 63.6%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.underLine p span:nth-child(2){
+    background: linear-gradient(90deg, #8a24ca -0.08%, #e70fca 63.6%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.underLine p span:last-child{
+    background: linear-gradient(90deg, #ca24b4 -0.08%, #CA24B4 63.6%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
